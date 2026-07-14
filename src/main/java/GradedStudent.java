@@ -15,14 +15,14 @@ public GradedStudent() {
     this.marks = new double[3]; // Allocates a 1D array for 3 subject marks
     }
 
-    // Method with parameters to set instance data (Classes and Objects Q1)
+    // Method with parameters to set instance data 
     public void setMarks(double m1, double m2, double m3) {
         this.marks[0] = m1;
         this.marks[1] = m2;
         this.marks[2] = m3;
     }
 
-    // Using expressions, assignment operators, and array loops (Arrays Lab Q2)
+    // Using expressions, assignment operators, and array loops 
     public double calculateTotal() {
         double total = 0.0;
         // Traversing array using a for loop
@@ -36,7 +36,7 @@ public GradedStudent() {
         return calculateTotal() / marks.length;
     }
 
-    // Conditional expressions & relational operators (Expressions & Operators Lab Sheet)
+    // Conditional expressions & relational operators
     public String calculateGrade() {
         double avg = calculateAverage();
         if (avg >= 75) return "A";

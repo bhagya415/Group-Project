@@ -10,12 +10,12 @@
 public class Person {
     protected String name; 
 
-    // Default Constructor (Classes and Objects Lab Sheet)
+    // Default Constructor 
     public Person() {
         this.name = "Unknown Student";
     }
 
-    // Public method declaration (Java Methods Lab Sheet Q1)
+    // Public method declaration 
     public void displayGreeting() {
         System.out.println("Processing grades for: " + name);
     }
