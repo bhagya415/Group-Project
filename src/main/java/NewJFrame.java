@@ -184,6 +184,8 @@ public class NewJFrame extends javax.swing.JFrame {
         // Object Orientation
         GradedStudent student = new GradedStudent();
         student.setMarks(s1, s2, s3);
+        
+        student.displayGreeting();
 
         // Invoking object instance methods for processing
         double total = student.calculateTotal();

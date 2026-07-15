@@ -12,11 +12,11 @@ public class Person {
 
     // Default Constructor 
     public Person() {
-        this.name = "Unknown Student";
+        this.name = "a Student";
     }
 
     // Public method declaration 
     public void displayGreeting() {
-        System.out.println("Processing grades for: " + name);
+        System.out.println("Processing grades for " + name);
     }
 }
